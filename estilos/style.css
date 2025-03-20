@@ -1,0 +1,7 @@
+body{
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1366px;
+    max-height: 720px;
+}
