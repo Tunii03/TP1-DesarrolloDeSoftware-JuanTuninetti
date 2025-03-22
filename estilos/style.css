@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body{
     background-image: url(fondo.png);
     background-size: cover;
@@ -5,3 +7,42 @@ body{
     max-width: 1366px;
     max-height: 720px;
 }
+.exo-2-Secciones{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.unna-regular-italic {
+    font-family: "Unna", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.unna-bold-italic {
+    font-family: "Unna", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.boton{
+    font-size: 20px;
+    padding: 10px 20px ;
+    border: 7px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background:linear-gradient(10deg,rgb(150, 93, 7),rgb(0, 183, 255))
+
+}
+.conteiner{
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px 20px;
+    align-items: center;
+    
+    
+}
+.img{
+    border-radius: 50%;
+}   
