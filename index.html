@@ -2,91 +2,125 @@
 <html>
     
     <head>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="estilos/style.css">
         
-        
-
+        <script src="https://kit.fontawesome.com/52b4f7c7a2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         
     </head>
-        
-        <body>
-            <div class="conteiner">
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class=" card" style="width: 18rem;">
-                            <img class="card-img-top" src="Imagenes/cr7 llorando.jpg" alt="cr7 llorando">
-                            <div class="card-body">
-                                <h5 class="card-title">Información Relevante</h5>
-                                <p class="card-text">Crsitiano Ronaldo a entrado 1083 veces a este portafolio en los ultimos 5 dias</p>
-                                <p class="card-text"><small class="text-muted">Ultima actualización hace 3 minutos</small></p>
-                            </div>
+    <body>
+        <div class="conteiner">
+            <div class="row mt-3">
+                <div class="col-md-3">
+                    <div class=" card" style="width: 16rem;">
+                        <img class="card-img-top" src="Imagenes/cr7 llorando.jpg" alt="cr7 llorando">
+                        <div class="card-body">
+                            <h5 class="card-title">Información Relevante</h5>
+                            <p class="card-text">Crsitiano Ronaldo a entrado 1083 veces a este portafolio en los ultimos 5 dias</p>
+                            <p class="card-text"><small class="text-muted">Ultima actualización hace 3 minutos</small></p>
                         </div>
+                    </div>
     
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="Imagenes/Messi.jpg" alt="Messi el mejor de la historia papa" class="img">
-                        <h1> Juan Ignacio Tuninetti</h1>
-                        <h2> Data Analyst Semi-Senior</h2>
-                    </div>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="Imagenes/Messi.jpg" alt="Messi el mejor de la historia papa" class="img">
+                    <h1> Lionel Andres Messi</h1>
+                    <h2> Data Analyst Semi-Senior</h2>
+                </div>
+                    
+                <div class="col-md-4">
+                    <form id="Formulario de Contacto" action="https://formspree.io/f/xrbpqprd" method="post" name="Formulario de Contacto">
+                        <h2>Formulario</h2>
+                        <div class="form-group">
+                            <label for="Nombre">Nombre</label>
+                            <input type="name" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre" required>
+                        </div>
+                            
+                        <div class="form-group">
+                            <label for="CorreoElectrónico">Correo Electronico</label>
+                            <input type="email" class="form-control" name="CorreoElectrónico" id="CorreoElectrónico" aria-describedby="email" placeholder="Insertar Correo" required>
+                            <small id="CorreoElectrónico" class="form-text text text-muted">No compartiremos tu correo con nadie más</small>
+                        </div>
+                            
+                        <div class="form-group">
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea class="form-control" name="Mensaje" id="Mensaje" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
                     
 
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-8 offset-md-2">
-                        <p class="text-justify">
-                            Soy <strong> ingeniero en sistemas</strong> recien egresado de la facultad, apasionado por el analisis de datos
-                            y la gestion de proyectos empresariales. Actualmente tengo 1 año de experiencia
-                            trabajando en la recopilacion, procesamiento y analisis de datos para la toma de 
-                            decisiones estrategicas, y +2 años trabajando como lider en proyectos IT.
-                        </p>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-12">
-                        <div>3564-546823</div>
-                        <div>blackhammer3000@gmail.com</div>
-                        <div>
-                        <a href="https://www.linkedin.com/company/cubits-srl/posts/?feedView=all" target="_blank" class="btn btn-primary">LinkedIn</a>
-                        <a href="https://www.instagram.com/leomessi/" target="_blank" class="btn btn-primary">Instagram</a>
-                        </div>
-                    </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-8 offset-md-2">
+                    <p class="text-justify">
+                        Soy <strong> ingeniero en sistemas</strong> recien egresado de la facultad, apasionado por el analisis de datos
+                        y la gestion de proyectos empresariales. Actualmente tengo 1 año de experiencia
+                        trabajando en la recopilacion, procesamiento y analisis de datos para la toma de 
+                        decisiones estrategicas, y +2 años trabajando como lider en proyectos IT.
+                    </p>
                 </div>
             </div>
+        </div>
             
-            
-            
-            
-           
-
-            <div class="conteiner">
-                <div class="row">
-                    <div class="col-4">
-                        <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
                         <a href="Secciones/Habilidades_Blandas.html">Habilidades Blandas</a>
-                        </h3>
-                    </div>
+                    </h3>
+                </div>
     
-                    <div class="col-4">
-                        <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
+                <div class="col-4">
+                    <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
                         <a href="Secciones/Proyectos.html">Mis Proyectos</a>
-                        </h3>
-                    </div>
+                    </h3>
+                </div>
     
-                    <div class="col-4">
-                        <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
+                <div class="col-4">
+                    <h3 class="exo-2-Secciones btn btn-light btn-lg btn-block">
                         <a href="Secciones/Habilidades_Duras.html">Habilidades Duras</a>
-                        </h3>
-                    </div>
-               </div>
-         </div>
-        
-                
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"></script>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div>
+                    <i class="fa-solid fa-envelope"><a href="blackhammer3000@gmail.com" target="_blank">Gmail</a><i class="fa-solid fa-square-arrow-up-right"></i></i>
+                </div>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <div>
+                    <i class="fa-solid fa-phone"><a href="3564-456776" target="_blank">Telefono</a><i class="fa-solid fa-square-arrow-up-right"></i></i>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/company/cubits-srl/posts/?feedView=all" target="_blank">LinkedIn</a><i class="fa-solid fa-square-arrow-up-right"></i></i>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/leomessi/" target="_blank">Instagram</a><i class="fa-solid fa-square-arrow-up-right"></i></i>
+                </div>
+            </div>
+            <div class="col-md-2 offset-md-1">
+                <div>
+                    <i class="fa-brands fa-github"><a href="https://github.com/alura-challenges" target="_blank">GitHub</a><i class="fa-solid fa-square-arrow-up-right"></i></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <footer>
+                    <p>©Todos los derechos reservados por el GOAT.</p>
+                </footer>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"></script>
         </body>        
-            
-
-
 
 </html>

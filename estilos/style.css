@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
-    background-image: url(fondo.png);
+    background: linear-gradient(20deg, rgba(206, 209, 36, 0.89), rgb(19, 190, 119));
     background-size: cover;
     background-position: center;
-    max-width: 1366px;
-    max-height: 720px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 .exo-2-Secciones{
     font-family: "Exo 2", sans-serif;
@@ -35,14 +38,38 @@ body{
     background:linear-gradient(10deg,rgb(150, 93, 7),rgb(0, 183, 255))
 
 }
-.conteiner{
+.container{
     justify-content: space-around;
     flex-direction: row;
-    gap: 10px 20px;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     
     
 }
 .img{
     border-radius: 50%;
 }   
+.card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 7px;
+    gap: 10px 20px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(209, 14, 14, 0.5);
+    transition: all 0.5s;
+    flex-flow: row wrap;
+    box-sizing: content-box;
+}
+.card-body{
+    flex-grow: 1;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(209, 14, 14, 0.5);
+}
