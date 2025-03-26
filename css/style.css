@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;;
+}
+
+.btn a, i a{
+    text-decoration: none;
+    color: red;
+}
+header{
+    background-color: blueviolet;
+}
+body{
+    background:linear-gradient(10deg,rgb(150, 93, 7),rgb(0, 183, 255));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.exo-2-Secciones{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.unna-regular-italic {
+    font-family: "Unna", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.unna-bold-italic {
+    font-family: "Unna", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.boton{
+    font-size: 20px;
+    padding: 10px 20px ;
+    border: 7px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background:linear-gradient(10deg,rgb(150, 93, 7),rgb(0, 183, 255))
+
+}
+.container{
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.img{
+    border-radius: 50%;
+}   
+.card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 7px;
+    gap: 10px 20px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(209, 14, 14, 0.5);
+    transition: all 0.5s;
+    flex-flow: row wrap;
+    box-sizing: content-box;
+}
+.card-body{
+    flex-grow: 1;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(209, 14, 14, 0.5);
+}
